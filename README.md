@@ -2,7 +2,7 @@
 RESTful API with user authorization via JWT
 
 
-#User Requests
+User Requests
 
 | Request | Endpoint       | Body                                     |  Auth Required |
 |---------|----------------|------------------------------------------|----------------|
@@ -11,7 +11,7 @@ RESTful API with user authorization via JWT
 | DELETE  | /users/:userId |                                          |      true      |
 
 
-#Product Requests
+Product Requests
 
 | Request | Endpoint             | Body                              |  Auth Required |
 |---------|----------------------|-----------------------------------|----------------|
@@ -22,7 +22,7 @@ RESTful API with user authorization via JWT
 | DELETE  | /products/:productId |                                   |      true      |
 
 
-#Order Requests
+Order Requests
 
 | Request | Endpoint         | Body                                        | Auth Required |
 |---------|------------------|---------------------------------------------|---------------|
