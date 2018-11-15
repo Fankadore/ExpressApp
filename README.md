@@ -1,14 +1,18 @@
 # ExpressApp
 RESTful API with user authorization via JWT
 
+
 #User Requests
+
 | Request | Endpoint       | Body                                     |  Auth Required |
 |---------|----------------|------------------------------------------|----------------|
 | POST    | /users/signup  | {"username": String, "password": String} |      false     |
 | POST    | /users/signin  | {"username": String, "password": String} |      false     |
 | DELETE  | /users/:userId |                                          |      true      |
 
+
 #Product Requests
+
 | Request | Endpoint             | Body                              |  Auth Required |
 |---------|----------------------|-----------------------------------|----------------|
 | GET     | /products            |                                   |      false     |
@@ -17,7 +21,9 @@ RESTful API with user authorization via JWT
 | PATCH   | /products/:productId | {"name": String, "price": Number} |      true      |
 | DELETE  | /products/:productId |                                   |      true      |
 
+
 #Order Requests
+
 | Request | Endpoint         | Body                                        | Auth Required |
 |---------|------------------|---------------------------------------------|---------------|
 | GET     | /orders          |                                             |      true     |
